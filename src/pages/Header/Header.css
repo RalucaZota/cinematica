@@ -1,0 +1,28 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    transition: 0.8s;
+    z-index: 10000;
+}
+
+header.scrolled {
+    background-color: (0, 0, 0, 0.8);
+    border-bottom: 2px solid #fff;
+    border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30;
+    backdrop-filter: blur(20px);
+    padding: 10px 100px; 
+}
+
+.logo {
+    width: 120px;    
+}
+
+.nav {
+    display: flex;
+}
