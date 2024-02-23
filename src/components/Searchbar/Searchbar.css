@@ -1,0 +1,33 @@
+.searchbar {
+    position: relative;
+    width: 300px;
+    height: 40px;
+}
+.searchbar input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--secondary);
+    background-color: transparent;
+    border: 1px solid  rgba(255,255,255,.6);
+    outline: none;
+    border-radius: 4px;
+    padding: 0 10px 0 45px !important;
+    backdrop-filter: blur(10px);
+}
+.searchbar input::placeholder {
+    color: var(--secondary);
+}
+.searchbar ion-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY( -50% );
+    left: 10px;
+    color: var(--secondary);
+    border-right: 1px solid var(--secondary);
+}
+
+
+
