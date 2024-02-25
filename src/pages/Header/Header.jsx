@@ -13,13 +13,13 @@ export default function Header() {
       </a>
       <nav>
         <ul className='nav'>
+          <Searchbar/>
           {
             navbarListData.map(nav => (
               <NavbarList key={nav.id} nav={nav}/>  
             ))         
           }
         </ul>
-        <Searchbar/>
       </nav>
     </header>
   );

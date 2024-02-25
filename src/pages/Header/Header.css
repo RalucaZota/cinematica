@@ -25,4 +25,5 @@ header.scrolled {
 
 .nav {
     display: flex;
+    align-items: center;
 }
