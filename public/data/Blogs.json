@@ -1,0 +1,47 @@
+[
+    {
+      "_id": 1,
+      "thumbnail": "",
+      "category": "5D Theatre",
+      "title": "",
+      "author": {
+        "name": "Maria Doe",
+        "image": ""
+      },
+      "date": "Jan 1, 2023"
+    },
+    {
+      "_id": 2,
+      "thumbnail": "",
+      "category": "Disney",
+      "title": "",
+      "author": {
+        "name": "Allisa Mayer",
+        "image": ""
+      },
+      "date": "May 10, 2023"
+    },
+    {
+      "_id": 3,
+      "thumbnail": "../assets/blogs/blog-3.jpeg",
+      "category": "",
+      "title": "",
+      "author": {
+        "name": "Mark Dower",
+        "image": ""
+      },
+      "date": "June 23, 2023"
+    },
+    {
+      "_id": 4,
+      "thumbnail": "",
+      "category": "",
+      "title": "",
+      "author": {
+        "name": "Lisa Neymar",
+        "image": ""
+      },
+      "date": "July 23, 2023"
+    }
+  ]
+  
