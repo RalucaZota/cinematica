@@ -128,7 +128,7 @@
       "active": false
     },
     {
-      "_id": 10,
+      "_id": 9,
       "titleImg": "../assets/movies/heart-of-stone-titleImg.png",
       "bgImg": "../assets/movies/heart-of-stone-bgImg.jpeg",
       "previewImg": "../assets/movies/heart-of-stone-previewImg.jpg",
@@ -144,7 +144,7 @@
       "active": false
     },
     {
-      "_id": 12,
+      "_id": 10,
       "titleImg": "../assets/movies/the-65-titleImg.png",
       "bgImg": "../assets/movies/65-bgImg.jpeg",
       "previewImg": "../assets/movies/65-previewImg.jpg",
@@ -160,7 +160,7 @@
       "active": false
     },
     {
-      "_id": 13,
+      "_id": 11,
       "titleImg": "../assets/movies/the-black-demon-titleImg.png",
       "bgImg": "../assets/movies/the-black-demon-bgImg.jpeg",
       "previewImg": "../assets/movies/the-black-demon-previewImg.jpg",
@@ -176,7 +176,7 @@
       "active": false
     },
     {
-      "_id": 14,
+      "_id": 12,
       "titleImg": "../assets/movies/the-tank-title.png",
       "bgImg": "../assets/movies/the-tank-bgImg.jpeg",
       "previewImg": "../assets/movies/the-tank-previewImg.jpeg",
@@ -192,7 +192,7 @@
       "active": false
     },
     {
-      "_id": 15,
+      "_id": 13,
       "titleImg": "../assets/movies/2012-titleImg.png",
       "bgImg": "../assets/movies/2012-bgImg.jpg",
       "previewImg": "../assets/movies/2012-previewImg.jpg",
@@ -208,7 +208,7 @@
       "active": false
     },
     {
-        "_id": 16,
+        "_id": 14,
         "titleImg": "../assets/movies/anabelle-titleImg.png",
         "bgImg": "../assets/movies/anabelle-bgImg.jpg",
         "previewImg": "../assets/movies/anabelle-previewImg.jpg",
@@ -224,7 +224,7 @@
         "active": false
       },
       {
-        "_id": 17,
+        "_id": 15,
         "titleImg": "../assets/movies/batman-titleImg.png",
         "bgImg": "../assets/movies/batman-bgImg.jpg",
         "previewImg": "../assets/movies/batman-previewImg.jpg",
@@ -240,7 +240,7 @@
         "active": false
       },
       {
-        "_id": 18,
+        "_id": 16,
         "titleImg": "../assets/movies/code-8-titleImg.png",
         "bgImg": "../assets/movies/Code-8-bgImg.jpg",
         "previewImg": "../assets/movies/code-8-previewImg.jpg",
@@ -256,7 +256,7 @@
         "active": false
       },
       {
-        "_id": 19,
+        "_id": 17,
         "titleImg": "../assets/movies/conjuring-titleImg.png",
         "bgImg": "../assets/movies/conjuring-bgImg.jpg",
         "previewImg": "../assets/movies/conjuring-previewImg.jpg",
@@ -272,7 +272,7 @@
         "active": false
       },
       {
-        "_id": 20,
+        "_id": 18,
         "titleImg": "../assets/movies/dune-titleImg.png",
         "bgImg": "../assets/movies/dune-bgImg.jpg",
         "previewImg": "../assets/movies/dune-previewImg.jpg",
@@ -288,7 +288,7 @@
         "active": false
       },
       {
-        "_id": 21,
+        "_id": 19,
         "titleImg": "../assets/movie/heart-of-stone-titleImg.png",
         "bgImg": "../assets/movie/heart-of-stone-bgImg.jpeg",
         "previewImg": "../assets/movie/heart-of-stone-previewImg.jpg",
@@ -304,7 +304,7 @@
         "active": false
       },
       {
-        "_id": 22,
+        "_id": 20,
         "titleImg": "../assets/movies/inception-titleImg.png",
         "bgImg": "../assets/movies/inception-bgImg.jpg",
         "previewImg": "../assets/movies/inception-previewImg.jpg",
@@ -320,7 +320,7 @@
         "active": false
       },  
       {
-        "_id": 22,
+        "_id": 21,
         "titleImg": "../assets/movies/nun-titleImg.png",
         "bgImg": "../assets/movies/nun-bgImg.jpg",
         "previewImg": "../assets/movies/nun-previewImg.jpg",
