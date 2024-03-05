@@ -21,7 +21,8 @@ function Movie() {
           deleniti recusandae aperiam? Quis nulla ad assumenda doloribus
           delectus ratione?
         </p>
-        <Button/>
+        <Button icon={<ion-icon name="bookmark-outline"></ion-icon>} name="Book" color="#ff3700" bgColor="#ffffff"/>
+        <Button icon={<ion-icon name="add-outline"></ion-icon>} name="My List"></Button>
       </div>
     </>
   );

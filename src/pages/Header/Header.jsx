@@ -4,6 +4,7 @@ import NavbarList from '../../components/NavbarList/NavbarList';
 import navbarListData from '../../data/navbarListData';
 import './Header.css'
 import Searchbar from '../../components/Searchbar/Searchbar';
+import Button from '../../components/Button/Button';
 
 export default function Header() {
   return (
@@ -19,6 +20,7 @@ export default function Header() {
               <NavbarList key={nav.id} nav={nav}/>  
             ))         
           }
+          <Button icon={<ion-icon name="log-in-outline"></ion-icon>} name="Sign in"/>
         </ul>
       </nav>
     </header>
