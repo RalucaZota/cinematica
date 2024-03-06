@@ -1,10 +1,11 @@
 import React from 'react';
 import axios from 'axios';
-import '../Bannner/Banner.css';
+import './Banner.css';
 import { useState, useEffect } from 'react';
 import Movie from '../Movie/Movie';
 import MovieDate from '../MovieDate/MovieDate';
 import PlayButton from '../PlayButton/PlayButton';
+import MovieCarousel from '../Carousel/MovieCarousel';
 
 export default function Banner() {
   const [movies, setMovies] = useState([]);
@@ -37,6 +38,8 @@ export default function Banner() {
         </div>
       </div>
      </div>
+     {movies && movies.length > 0 &&
+     <MovieCarousel slides={movies} />}
     </div>
   );
 }
