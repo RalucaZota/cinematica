@@ -22,24 +22,39 @@ export default function Banner() {
     };
     receivedData();
   }, []);
+  const handleSlideChange = (id) => {
+    const newMovies = movies.map(movie => {
+      movie.active = false;
+      if(movie._id == id){
+        movie.active = true
+      }
+      return movie
+    })
+    setMovies(newMovies)
+  };
   return (
     <div className='banner'>
-     <div className="movie">
-      <img src="" alt="Background Image" className="bgImg" />
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-lg-6 cold-md-12">
-          <Movie/>
-          </div>
-          <div className="col-lg-6 cold-md-12">
-          <MovieDate/>
-          <PlayButton/>
+      {movies &&
+        movies.length > 0 &&
+        movies.map((movie) => (
+          <div className='movie'>
+            <img src={movie.bgImg} alt='Background Image' className={`bgImg ${movie.active ? 'active' : undefined}`} />
+            <div className='container-fluid'>
+              <div className='row'>
+                <div className='col-lg-6 cold-md-12'>
+                  <Movie movie={movie}/>
+                </div>
+                <div className='col-lg-6 cold-md-12'>
+                  <MovieDate movie={movie}/>
+                  <PlayButton movie={movie}/>
+                </div>
+              </div>
             </div>
-        </div>
-      </div>
-     </div>
-     {movies && movies.length > 0 &&
-     <MovieCarousel slides={movies} />}
+          </div>
+        ))}
+      {movies && movies.length > 0 && (
+        <MovieCarousel slides={movies} slideChange={handleSlideChange} />
+      )}
     </div>
   );
 }

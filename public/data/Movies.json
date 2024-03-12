@@ -98,7 +98,7 @@
     {
       "_id": 7,
       "titleImg": "../assets/Movies/assassin-titleImg.png",
-      "bgImg": "../assets/Movies/assassi-bgImg.jpg",
+      "bgImg": "../assets/Movies/assassin-bgImg.jpg",
       "previewImg": "../assets/Movies/assassin-previewImg.jpg",
       "video": "https://www.youtube.com/embed/qiUATuIhUw8",
       "title": "Assassin",

@@ -3,23 +3,21 @@ import '../Movie/Movie.css'
 import'../Button/Button.jsx';
 import Button from '../Button/Button.jsx';
 
-function Movie() {
+function Movie({movie}) {
   return (
     <>
-      <div className='content active'>
-        <img src='' alt='Movie Title' className='movie-title' />
+      <div className={`content ${movie.active ? 'active' : undefined}`}>
+        <img src={movie.titleImg} alt='Movie Title' className='movie-title' />
         <h4>
-          <span>Year</span>
+          <span>{movie.year}</span>
           <span>
-            <i>Age</i>
+            <i>{movie.ageLimit}</i>
           </span>
-          <span>Length</span>
-          <span>Category</span>
+          <span>{movie.length}</span>
+          <span>{movie.category}</span>
         </h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde facilis
-          deleniti recusandae aperiam? Quis nulla ad assumenda doloribus
-          delectus ratione?
+          {movie.description}
         </p>
         <Button icon={<ion-icon name="bookmark-outline"></ion-icon>} name="Book" color="#ff3700" bgColor="#ffffff"/>
         <Button icon={<ion-icon name="add-outline"></ion-icon>} name="My List"></Button>
