@@ -1,12 +1,12 @@
 /* main */
 main {
     position: relative;
-    width: 100vh;
+    width: 100%;
     padding: 0 0 120px;
     background-color: #000000;
 }
 
-main::before {
+/* main::before {
     position: absolute;
     content: "";
     left: 0;
@@ -15,7 +15,7 @@ main::before {
     height: 200px;
     background-color: #000000;
     filter: blur(50px);
-}
+} */
 
 /* sections general */
 section {
@@ -56,4 +56,11 @@ section .section-title::after {
     width: 50%;
     background-color: linear-gradient(90deg, var(--primary), var(--primary), transparent);
     z-index: 1000;
+}
+
+section p {
+    font-weight: 300;
+    color: #111111;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
 }

@@ -1,9 +1,12 @@
 import React from 'react'
-import './Main/Main.css'
+import '../Main/Main.css'
+import Schedule from '../Schedule/Schedule'
 
 function Main() {
   return (
-    <main></main>
+    <main>
+      <Schedule/>
+    </main>
   )
 }
 

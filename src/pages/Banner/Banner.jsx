@@ -2,10 +2,10 @@ import React from 'react';
 import axios from 'axios';
 import './Banner.css';
 import { useState, useEffect } from 'react';
-import Movie from '../Movie/Movie';
-import MovieDate from '../MovieDate/MovieDate';
-import PlayButton from '../PlayButton/PlayButton';
-import MovieCarousel from '../Carousel/MovieCarousel';
+import Movie from '../../components/Movie/Movie'
+import MovieDate from '../../components/MovieDate/MovieDate';
+import PlayButton from '../../components/PlayButton/PlayButton';
+import MovieCarousel from '../../components/Carousel/MovieCarousel';
 
 export default function Banner() {
   const [movies, setMovies] = useState([]);
