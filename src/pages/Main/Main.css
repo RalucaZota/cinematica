@@ -2,11 +2,12 @@
 main {
     position: relative;
     width: 100%;
+    min-height: 100vh;
     padding: 0 0 120px;
     background-color: #000000;
 }
 
-/* main::before {
+main::before {
     position: absolute;
     content: "";
     left: 0;
@@ -15,7 +16,7 @@ main {
     height: 200px;
     background-color: #000000;
     filter: blur(50px);
-} */
+}
 
 /* sections general */
 section {
@@ -54,7 +55,7 @@ section .section-title::after {
     bottom: -30px;
     height: 5px;
     width: 50%;
-    background-color: linear-gradient(90deg, var(--primary), var(--primary), transparent);
+    background: linear-gradient(90deg, var(--primary), var(--primary), transparent);
     z-index: 1000;
 }
 
