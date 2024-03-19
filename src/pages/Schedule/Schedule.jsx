@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 import '../Schedule/Schedule.css'
+import Card from '../../components/Card/Card'
 
 function Schedule() {
   const [data, setData] = useState([])
@@ -37,7 +38,7 @@ function Schedule() {
             </div>
             <div className="row mt-5">
             {movies && movies.length > 0 && movies.map((movie) => (
-              <h1 key={movie._id}>{movie.title}</h1>
+              <Card key={movie._id} movie={movie}/>
             ))}
 
             </div>
